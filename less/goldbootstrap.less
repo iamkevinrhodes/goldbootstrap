@@ -34,16 +34,16 @@
   float: left;
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
   width: percentage(@gold-ratio-1);
 }
 .col-gold-lg {
   float: left;
   position: relative;
   min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
   width: percentage(@gold-ratio-2);
 }
 
@@ -56,16 +56,8 @@
 
 //== Golden helpers
 
-.gold-space-sm {
-	margin-top: (@line-height-computed); // 21px
-	margin-bottom: (@line-height-computed);
-	}
-
-.gold-padding-md {
-	margin-top: (@line-height-computed * 2); // 42px
-	margin-bottom: (@line-height-computed * 2);
-	}
-
+@gold-space-sm:	(@line-height-computed); // 21px
+@gold-space-md:	(@line-height-computed * 2); // 42px
 @gold-space-lg:	(@line-height-computed * 5); // 105px
 
 //
@@ -79,11 +71,17 @@
 @font-size-h1:            floor((@font-size-base * @gold-ratio-5)); // ~55px
 @font-size-h2:            floor((@font-size-base * @gold-ratio-4)); // ~34px
 @font-size-h3:            ceil((@font-size-base * @gold-ratio)); // ~21px
-@font-size-h4:            @font-size-base; // 13px
+@font-size-h4:            @font-size-base; // 14px Bootstrap default
 @font-size-h5:            floor((@font-size-base * @gold-ratio-3)); // ~10px
 @font-size-h6:            ceil((@font-size-base * @gold-ratio-2)); // ~8px
 
 //** Unit-less `line-height` for use in components like buttons.
 @line-height-base:        @gold-ratio; // 1.618
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~23px
+@line-height-computed:    ceil((@font-size-base * @line-height-base)); // ~23px
+
+
+
+
+
+

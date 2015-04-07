@@ -1,13 +1,13 @@
-# Gold Bootstrap
+# Gold Bootstrap 3.3.4
 The latest version of Bootstrap based off the golden-ratio.
 
 ## The Simple Setup
 Include `goldbootstrap.css` in your project. That's all. The most recent version of Bootstrap is included.
 
-```sass
-// Core CSS
+```html
+// Core HTML
 //...
-@import "golden-bootstrap/golden-bootstrap.scss"; // Add support for Gold Bootstrap
+<link rel="stylesheet" type="text/css" href="goldbootstrap.css"> // Add support for Gold Bootstrap
 ```
 
 If you want to use LESS or SASS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` or `goldbootstrap.scss` in `bootstrap.scss`, and that's it.
@@ -15,11 +15,11 @@ If you want to use LESS or SASS Preprocessors, include `gold-bootstrap.less` in 
 ```sass
 // Core CSS
 //...
-@import "golden-bootstrap/golden-bootstrap.scss"; // Add support for Golden Bootstrap
+@import "golden-bootstrap/gold-bootstrap.less"; // Add support for Gold Bootstrap
 ```
 
 ## Using the GOLD Headings
-Extremely simple. Just use regular H1-H6 HTML heading tags.
+Extremely simple. Just use regular 'H1' through 'H6' HTML heading tags.
 
 ```html
 <h1>Heading 1</h1>
@@ -52,4 +52,4 @@ Any time your need to add padding or margins on things, use the following classe
 
 
 ## How it works
-“Two quantities are in the golden ratio if the ratio of the sum of the quantities to the larger quantity is equal to the ratio of the larger quantity to the smaller one” ([source](http://en.wikipedia.org/wiki/Golden_ratio)). Under the hood it looks like this:
+Coming soon...

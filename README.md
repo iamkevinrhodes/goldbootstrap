@@ -7,7 +7,7 @@ Include `goldbootstrap.css` in your project. That's all. The most recent version
 ```html
 // Core HTML
 //...
-<link rel="stylesheet" type="text/css" href="goldbootstrap.css"> // Add support for Gold Bootstrap
+<link rel="stylesheet" type="text/css" href="goldbootstrap/css/goldbootstrap.css"> // Add support for Gold Bootstrap
 ```
 
 If you want to use LESS or SASS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` or `goldbootstrap.scss` in `bootstrap.scss`, and that's it.
@@ -15,7 +15,7 @@ If you want to use LESS or SASS Preprocessors, include `gold-bootstrap.less` in 
 ```sass
 // Core CSS
 //...
-@import "golden-bootstrap/gold-bootstrap.less"; // Add support for Gold Bootstrap
+@import "goldbootstrap/less/goldbootstrap.less"; // Add support for Gold Bootstrap
 ```
 
 ## Using the GOLD Headings
@@ -30,7 +30,7 @@ Extremely simple. Just use regular 'H1' through 'H6' HTML heading tags.
 <h6>Heading 6</h6>
 ```
 
-## Using the GOLD GRID
+## Using the GOLD Grid
 Like you would do with any other Bootstrap column, simply use a set of `.col-gold-sm` and `.col-gold-lg` columns:
 
 ```html

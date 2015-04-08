@@ -41,7 +41,7 @@ Like you would do with any other Bootstrap column, simply use a set of `.col-gol
 ```
 
 ## Using the GOLD Helpers
-Any time your need to add padding or margins on things, use the following classes. This helps maintain good vertical rythym.
+Anytime you need to add padding or margins on things, use the following classes. This helps maintain good vertical rythym.
 
 ```html
 <div class="row">
@@ -50,6 +50,20 @@ Any time your need to add padding or margins on things, use the following classe
 </div>
 ```
 
-
 ## How it works
 Coming soon...
+
+## Versioning
+GOLD Bootstrap is always in sync with latest version of Bootstrap. If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.  Here's more about it here:
+
+## About the Author
+Kevin Rhodes is a UX Designer from San Diego who loves Photoshop and front-end coding. He also loves his cat.
+
+## License
+Copyright 2015 Kevin Rhodes
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.

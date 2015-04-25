@@ -6578,3 +6578,12 @@ button.close {
 .col-gold-offset-lg {
   margin-left: 61.80469716%;
 }
+.gold-margin-sm {
+  margin-bottom: 22px;
+}
+.gold-margin-md {
+  margin-bottom: 44px;
+}
+.gold-margin-lg {
+  margin-bottom: 110px;
+}

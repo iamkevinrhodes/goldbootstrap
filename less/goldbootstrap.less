@@ -11,30 +11,33 @@
  */
 
 
-//== Golden variables
+//== GOLD variables
 
-@gold-ratio:				1.618;
+@gold-ratio:				    1.618;
 
-@gold-ratio-1:      		(1 - @gold-ratio); // -0.618
-@gold-ratio-2:				(1 / @gold-ratio);  // 0.618
-@gold-ratio-3:				(@gold-ratio / 2); // 0.809
-@gold-ratio-4: 				(@gold-ratio * @gold-ratio); // 2.619542
-@gold-ratio-5: 				(@gold-ratio-4 * @gold-ratio); // 4.23580103
+@gold-ratio-1:          (1 - @gold-ratio); // -0.618
+@gold-ratio-2:          (1 / @gold-ratio);  // 0.618
+@gold-ratio-3:          (@gold-ratio / 2); // 0.809
+@gold-ratio-4:          (@gold-ratio * @gold-ratio); // 2.617924
+@gold-ratio-5:          (@gold-ratio-4 * @gold-ratio); // 4.23580103
 
-//== Bootstrap global alterations
+
+//== GOLD line-height
 
 @line-height-base:        @gold-ratio; // 1.618
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~23px
 
-//== Golden headings
 
-@font-size-h1:            floor((@font-size-base * @gold-ratio-5)); // ~55px
-@font-size-h2:            floor((@font-size-base * @gold-ratio-4)); // ~34px
-@font-size-h3:            ceil((@font-size-base * @gold-ratio)); // ~21px
+//== GOLD headings
+
+@font-size-h1:            floor((@font-size-base * @gold-ratio-5)); // ~59px
+@font-size-h2:            ceil((@font-size-base * @gold-ratio-4)); // ~37px
+@font-size-h3:            ceil((@font-size-base * @gold-ratio)); // ~23px
 @font-size-h4:            @font-size-base; // 14px Bootstrap default
-@font-size-h5:            floor((@font-size-base * @gold-ratio-3)); // ~10px
-@font-size-h6:            ceil((@font-size-base * @gold-ratio-2)); // ~8px
+@font-size-h5:            floor((@font-size-base * @gold-ratio-3)); // ~11px
+@font-size-h6:            ceil((@font-size-base * @gold-ratio-2)); // ~9px
 
-//== Golden grid
+//== GOLD grid
 
 .col-gold-sm {
   float: left;
@@ -62,12 +65,22 @@
   margin-left: percentage(@gold-ratio-2);
 }
 
-//== Golden helpers
+//== GOLD helpers
 
 @gold-space-sm:	(@line-height-computed); // 21px
 @gold-space-md:	(@line-height-computed * 2); // 42px
 @gold-space-lg:	(@line-height-computed * 5); // 105px
 
 
+.gold-margin-sm {
+  margin-bottom: @gold-space-sm; // 21px
+}
 
+.gold-margin-md {
+  margin-bottom: @gold-space-md; // 42px
+}
+
+.gold-margin-lg {
+  margin-bottom: @gold-space-lg; // 21px
+}
 

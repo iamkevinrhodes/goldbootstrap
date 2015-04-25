@@ -10,9 +10,9 @@ Include `goldbootstrap.css` in your project. That's all. The most recent version
 <link rel="stylesheet" type="text/css" href="goldbootstrap/css/goldbootstrap.css"> // Add support for Gold Bootstrap
 ```
 
-If you want to use LESS or SASS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` or `goldbootstrap.scss` in `bootstrap.scss`, and that's it.
+If you want to use LESS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` in `bootstrap.scss`, and that's it.
 
-```sass
+```css
 // Core CSS
 //...
 @import "goldbootstrap/less/goldbootstrap.less"; // Add support for Gold Bootstrap
@@ -41,7 +41,7 @@ Like you would do with any other Bootstrap column, simply use a set of `.col-gol
 ```
 
 ## Using the GOLD Helpers
-Anytime you need to add padding or margins on things, use the following classes. This helps maintain good vertical rythym.
+Anytime you need to add margins on things, use the following classes. This helps maintain good vertical rythym.
 
 ```html
 <div class="row">
@@ -54,10 +54,10 @@ Anytime you need to add padding or margins on things, use the following classes.
 Coming soon...
 
 ## Versioning
-GOLD Bootstrap is always in sync with latest version of Bootstrap. If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.  Here's more about it here:
+GOLD Bootstrap is always in sync with latest version of [Bootstrap](http://getbootstrap.com). If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.  Here's more about it here:
 
 ## About the Author
-Kevin Rhodes is a UX Designer from San Diego who loves Photoshop and front-end coding. He also loves his cat.
+[Kevin Rhodes](http://iamkevinrhodes.com) is a UX Designer from San Diego who loves Photoshop and front-end coding. He also loves his cat.
 
 ## License
 Copyright 2015 Kevin Rhodes

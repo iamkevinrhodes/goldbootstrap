@@ -1,7 +1,7 @@
 # Gold Bootstrap 3.3.4
 The latest version of Bootstrap based off the golden-ratio.
 
-## The Simple Setup
+## The Simple Setup (CSS)
 Include `goldbootstrap.css` in your project. That's all. The most recent version of Bootstrap is included.
 
 ```html
@@ -9,6 +9,8 @@ Include `goldbootstrap.css` in your project. That's all. The most recent version
 //...
 <link rel="stylesheet" type="text/css" href="goldbootstrap/css/goldbootstrap.css"> // Add support for Gold Bootstrap
 ```
+
+## The Simple Setup (LESS)
 
 If you want to use LESS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` in `bootstrap.scss`, and that's it.
 
@@ -18,7 +20,10 @@ If you want to use LESS Preprocessors, include `gold-bootstrap.less` in `bootstr
 @import "goldbootstrap/less/goldbootstrap.less"; // Add support for Gold Bootstrap
 ```
 
-## Using the GOLD Headings
+## How to use it
+Use any component from the normal Bootstrap Component. They're all included. You can review them on Bootstrap Official Site.
+
+## What about GOLD Headings?
 Extremely simple. Just use regular 'H1' through 'H6' HTML heading tags.
 
 ```html
@@ -30,7 +35,7 @@ Extremely simple. Just use regular 'H1' through 'H6' HTML heading tags.
 <h6>Heading 6</h6>
 ```
 
-## Using the GOLD Grid
+## What about the GOLD Grid?
 Like you would do with any other Bootstrap column, simply use a set of `.col-gold-sm` and `.col-gold-lg` columns:
 
 ```html
@@ -39,17 +44,6 @@ Like you would do with any other Bootstrap column, simply use a set of `.col-gol
   <div class="col-gold-lg">...</div>
 </div>
 ```
-
-## Using the GOLD Helpers
-Anytime you need to add margins on things, use the following classes. This helps maintain good vertical rythym.
-
-```html
-<div class="row">
-  <div class="col-gold-sm">...</div>
-  <div class="col-gold-lg">...</div>
-</div>
-```
-
 ## How it works
 Coming soon...
 

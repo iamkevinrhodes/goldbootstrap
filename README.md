@@ -54,7 +54,7 @@ GOLD Bootstrap is always in sync with latest version of [Bootstrap](http://getbo
 [Kevin Rhodes](http://iamkevinrhodes.com) is a UX Designer from San Diego who loves Photoshop and front-end coding. He also loves his cat.
 
 ## License
-Copyright 2015 Kevin Rhodes
+&copy; Copyright 2015 Kevin Rhodes
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this work except in compliance with the License. You may obtain a copy of the License in the LICENSE file, or at:
 

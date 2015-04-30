@@ -12,16 +12,16 @@ Include `goldbootstrap.css` in your project. That's all. The most recent version
 
 ## The Simple Setup (LESS)
 
-If you want to use LESS Preprocessors, include `gold-bootstrap.less` in `bootstrap.less` in `bootstrap.scss`, and that's it.
+If you want to use LESS Preprocessors, include `gold-bootstrap.less` after your `bootstrap.less` import, and that's it.
 
 ```css
-// Core CSS
+// Core LESS
 //...
 @import "goldbootstrap/less/goldbootstrap.less"; // Add support for Gold Bootstrap
 ```
 
 ## How to use it
-Use any component from the normal Bootstrap Component. They're all included. You can review them on Bootstrap Official Site.
+Use any component from the regular [Bootstrap](http://getbootstrap.com). They're all included.
 
 ## What about GOLD Headings?
 Extremely simple. Just use regular 'H1' through 'H6' HTML heading tags.

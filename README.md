@@ -1,4 +1,4 @@
-# Gold Bootstrap 3.3.4
+# Gold Bootstrap 3.3.5
 The latest version of Bootstrap based off the golden-ratio.
 
 ## The Simple Setup (CSS)
@@ -48,7 +48,23 @@ Like you would do with any other Bootstrap column, simply use a set of `.col-gol
 Coming soon...
 
 ## Versioning
-GOLD Bootstrap is always in sync with latest version of [Bootstrap](http://getbootstrap.com). If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.  Here's more about it here:
+GOLD Bootstrap is always in sync with latest version of [Bootstrap](http://getbootstrap.com). If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.
+
+## Changelog & Support
+
+**06/16/15**
+
+* Update to Bootstrap 3.3.5
+* Added Changelog to this Readme
+* Various Readme updates
+
+**06/08/15**
+
+* Swapped out seperate Boostrap JS files for compiled Boostrap.js
+
+**04/24/15**
+
+* Initial release using Bootstrap 3.3.4
 
 ## About the Author
 [Kevin Rhodes](http://iamkevinrhodes.com) is a UX Designer from San Diego who loves Photoshop and front-end coding. He also loves his cat.

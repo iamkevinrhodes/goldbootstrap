@@ -1,4 +1,4 @@
-# Gold Bootstrap 3.3.5
+# Gold Bootstrap 3.3.6
 The latest version of Bootstrap based off the golden-ratio. A simple LESS/CSS style sheet is included that overrites some attributes of Bootstrap. The full version of Bootstrap is included (and untouched) with this package, including the CSS and JS files (i.e YOU DON'T NEED TO DOWNLOAD BOOTSTRAP AS WELL!)
 
 ## The Simple Setup (CSS)

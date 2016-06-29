@@ -1,8 +1,8 @@
 # Gold Bootstrap 3.3.5
-The latest version of Bootstrap based off the golden-ratio.
+The latest version of Bootstrap based off the golden-ratio. A simple LESS/CSS style sheet is included that overrites some attributes of Bootstrap. The full version of Bootstrap is included (and untouched) with this package, including the CSS and JS files (i.e YOU DON'T NEED TO DOWNLOAD BOOTSTRAP AS WELL!)
 
 ## The Simple Setup (CSS)
-Include `goldbootstrap.css` in your project. That's all. The most recent version of Bootstrap is included.
+Include `goldbootstrap.css` in your project. That's all. 
 
 ```html
 // Core HTML
@@ -51,6 +51,15 @@ Coming soon...
 GOLD Bootstrap is always in sync with latest version of [Bootstrap](http://getbootstrap.com). If 'Bootstrap 9' comes out, we will be 'Gold Bootstrap 9' and so on.
 
 ## Changelog & Support
+
+**06/30/16**
+
+* Update to Bootstrap 3.3.6
+* Added gold-template.html to get you started easier
+* Added media queries to collapse Gold Columns on Mobile (anything under 991px)
+* Fixed Gold Columns to extend to 100%
+* Including Bootstrap Fonts Folder, so you truly don't need to download Boostrap
+* Clarified Readme to state that Bootstrap is included, and you don't need to download it seperately
 
 **06/16/15**
 

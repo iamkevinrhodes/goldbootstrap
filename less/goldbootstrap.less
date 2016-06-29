@@ -15,8 +15,8 @@
 
 @gold-ratio:				    1.618;
 
-@gold-ratio-1:          (1 - @gold-ratio); // -0.618
-@gold-ratio-2:          (1 / @gold-ratio);  // 0.618
+@gold-ratio-one:        (@gold-ratio - 1); // 0.618 lg
+@gold-ratio-2:          (2 - @gold-ratio);  // 0.382 sm
 @gold-ratio-3:          (@gold-ratio / 2); // 0.809
 @gold-ratio-4:          (@gold-ratio * @gold-ratio); // 2.617924
 @gold-ratio-5:          (@gold-ratio-4 * @gold-ratio); // 4.23580103
@@ -39,26 +39,26 @@
 
 //== GOLD grid
 
-.col-gold-sm {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-left: (@grid-gutter-width / 2);
-  padding-right: (@grid-gutter-width / 2);
-  width: percentage(@gold-ratio-1);
-}
-
 .col-gold-lg {
   float: left;
   position: relative;
   min-height: 1px;
   padding-left: (@grid-gutter-width / 2);
   padding-right: (@grid-gutter-width / 2);
-  width: percentage(@gold-ratio-2);
+  width: percentage(@gold-ratio-one); // 61.80469716%
+}
+
+.col-gold-sm {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
+  width: percentage(@gold-ratio-2);   // 0.318%
 }
 
 .col-gold-offset-sm {
-  margin-left: percentage(@gold-ratio-1);
+  margin-left: percentage(@gold-ratio-one);
 }
 
 .col-gold-offset-lg {
@@ -82,5 +82,22 @@
 
 .gold-margin-lg {
   margin-bottom: @gold-space-lg; // 21px
+}
+
+//== Media Query to drop gold-bootstrap when screens get small
+
+@media (max-width: 991px) {
+	.col-gold-sm, .col-gold-lg {
+	    width: 100%;
+	}
+	
+	.col-gold-offset-sm {
+		padding-left: (@grid-gutter-width / 2);
+	}
+
+	.col-gold-offset-lg {
+		padding-left: (@grid-gutter-width / 2);
+	}
+	
 }
 
